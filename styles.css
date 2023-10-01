@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/1217287.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-top: 5px;
+}
+h4 {
+  text-align: center;
+}
+h1,
+h5,
+p,
+h4 {
+  color: white;
+}
+.main-heading {
+  text-align: center;
+}
+
+nav {
+  background-color: transparent;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav input {
+  display: block;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+.nav input::placeholder {
+  font-family: 'Oxygen';
+  text-align: center;
+}
+
+.nav input:focus {
+  outline: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.current--location_container,
+.popular-places {
+  width: max-content;
+  height: 200px;
+  margin: 0 auto;
+  color: white;
+  text-align: left;
+  padding: 5px;
+}
+.popular-places {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.current--location_container {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  height: auto;
+  gap: 20px;
+  width: auto;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  float: right;
+  margin-top: 8px;
+}
+.display > * {
+  padding: 2px;
+}
+.icon {
+  float: right;
+  padding: 0;
+  width: fit-content;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(25px);
+  width: 200px;
+}
+
+.yourSearches {
+  transform: scale(0.8);
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(25px);
+  width: 200px;
+}
+
+.addMore {
+  color: white;
+  background-color: lightblue;
+  width: fit-content;
+  padding: 2px;
+  border-radius: 10px;
+}
